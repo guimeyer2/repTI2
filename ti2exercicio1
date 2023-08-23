@@ -1,0 +1,21 @@
+package exercicio01;
+import java.util.*;
+
+
+class Somar2numeros {
+	public static Scanner sc =
+			new Scanner(System.in);
+	public static void main (String args[]){
+		
+		int num1, num2, soma; //variaveis
+		
+		System.out.println("insira um número inteiro: ");
+		num1 = sc.nextInt(); // scan
+		System.out.println("insira outro número inteiro: ");
+		num2 = sc.nextInt(); // scan
+		
+		soma = num1 + num2;
+		
+		System.out.println("Soma:" + soma); //printa
+		}
+}
